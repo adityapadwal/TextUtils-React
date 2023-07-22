@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# TextUtils - Interactive Text Utility Website
+TextUtils is a mode-based (light/dark) interactive and responsive website developed using ReactJS. This project provides various utility functions on user input text, including calculating typing speed (WPM), word count, converting text to uppercase and lowercase, and more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![tu1](https://github.com/adityapadwal/TextUtils-React/assets/97524745/b20dc256-40a4-46a3-85a3-d1103429cd63)
+![tu2](https://github.com/adityapadwal/TextUtils-React/assets/97524745/ebaacfb8-0aa4-47ef-a9fb-d3a72535a56f)
+![tu3](https://github.com/adityapadwal/TextUtils-React/assets/97524745/49dac688-5e8f-4929-b915-61ed74d3031b)
 
-## Available Scripts
+Key Features :
+1. React Router: Implemented React Router to enable smooth navigation and provide a seamless user experience when interacting with different utility functions.
 
-In the project directory, you can run:
+2. useState Hooks: Leveraged the power of useState hooks to efficiently manage and update component states, allowing for dynamic content rendering based on user input.
 
-### `npm start`
+3. Light/Dark Mode Functionality: Utilized the useState hook to implement a light/dark mode toggle, enabling users to switch between two visually appealing themes based on their preference.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Usage
+TextUtils offers the following utility functions on user input text:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Typing Speed (WPM): Measures how many words a user can type in one minute, helping improve typing skills.
 
-### `npm test`
+2. Word Count: Counts the number of words in the provided text, giving a quick overview of the text length.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Uppercase and Lowercase Conversion: Allows users to easily convert text to uppercase or lowercase as needed.
 
-### `npm run build`
+Contributing:
+Contributions are welcome! If you find any issues or want to enhance TextUtils with new features, feel free to create a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Acknowledgments:
+Thanks to the ReactJS community for providing excellent documentation and resources.
+Hat tip to anyone whose code was used for inspiration.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: This project was developed using React.js and served as the developer's first-ever experience with the framework.
